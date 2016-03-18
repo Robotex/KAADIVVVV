@@ -14,7 +14,7 @@
 
 console.log('KAADIVVVV is loading...');
 
-window.vvvvid.checkAdBlock = function (k, n)
+window.vvvvid.cab1 = function (k, n)
 {
   var o = this;
   o.isAdBlockActive = false;
