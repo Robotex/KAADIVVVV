@@ -21,7 +21,7 @@ window.vvvvid.cab1 = function (k, n)
   if (n)
     n(false);
 };
-window.vvvvid.checkAdv = function () {
+/*window.vvvvid.checkAdv = function () {
   var d = this;
   d.thereIsAdv = false;
-};
+};*/
