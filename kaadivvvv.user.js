@@ -12,8 +12,6 @@
 // @grant       none
 // ==/UserScript==
 
-console.log('KAADIVVVV is loading...');
-
 window.vvvvid.cab1 = function (k, n)
 {
   var o = this;
@@ -22,4 +20,3 @@ window.vvvvid.cab1 = function (k, n)
     n(false);
 };
 
-window.nopub = {};
