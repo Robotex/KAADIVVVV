@@ -21,8 +21,5 @@ window.vvvvid.cab1 = function (k, n)
   if (n)
     n(false);
 };
-window.vvvvid.models.PlayerObj.prototype.checkAdv = function () {
-  console.log('checkAdv');
-  var d = this;
-  d.thereIsAdv = false;
-};
+
+window.nopub = {};
