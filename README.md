@@ -16,3 +16,17 @@ Il progetto è stato sviluppato nel mio tempo libero, ed è gratuito e senza sco
 
 ## Domande e dubbi
 * [Per problemi tecnici andate qui](https://github.com/Robotex/KAADIVVVV/issues)
+
+## Changelog
+##### 1.0.2 (March 19, 2016)
+>
+* Code simplification and cleanup
+
+##### 1.0.1 (March 18, 2016)
+> 
+* Follow the white rabbit.
+
+##### 1.0.0 (February 27, 2016)
+>
+* Initial release
+
