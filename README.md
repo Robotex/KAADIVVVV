@@ -18,6 +18,10 @@ Il progetto è stato sviluppato nel mio tempo libero, ed è gratuito e senza sco
 * [Per problemi tecnici andate qui](https://github.com/Robotex/KAADIVVVV/issues)
 
 ## Changelog
+##### 1.0.3 (March 30, 2016)
+>
+* HTTPS support
+
 ##### 1.0.2 (March 19, 2016)
 >
 * Code simplification and cleanup
