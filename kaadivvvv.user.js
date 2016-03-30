@@ -3,7 +3,7 @@
 // @namespace   https://github.com/Robotex/
 // @description Mantieni il tuo Ad-Blocker attivo mentre ti guardi il tuo anime preferito
 // @author      Robotex
-// @version     1.0.3
+// @version     1.0.3b
 // @license     GPL version 3; http://www.gnu.org/copyleft/gpl.html
 // @copyright   2016+, Robotex (https://github.com/Robotex/)
 // @homepage    https://github.com/Robotex/kaadivvvv/
@@ -13,7 +13,7 @@
 // @grant       none
 // ==/UserScript==
 
-window.vvvvid.cab1 = function (k, n)
+window.vvvvid.cab2 = function (k, n)
 {
   var o = this;
   o.isAdBlockActive = false;
