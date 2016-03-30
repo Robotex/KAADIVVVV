@@ -21,6 +21,7 @@ Il progetto è stato sviluppato nel mio tempo libero, ed è gratuito e senza sco
 ##### 1.0.3 (March 30, 2016)
 >
 * HTTPS support
+* The Matrix has you.
 
 ##### 1.0.2 (March 19, 2016)
 >
