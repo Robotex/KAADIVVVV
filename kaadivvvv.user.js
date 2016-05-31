@@ -21,4 +21,4 @@ window.vvvvid.cab2 = function (k, n)
     n(false);
 };
 
-window.MPVastLoader.adbTot = -12;
+window.MPVastLoader.adbTot = -1337;
