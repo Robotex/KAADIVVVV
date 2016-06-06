@@ -22,6 +22,6 @@ window.vvvvid.cab2 = function (k, n)
 };
 
 window.MPVastLoader = function(b) {
-  this.loadNext = function() { return false; }
+  this.loadNext = function() { return true; }
 };
 window.MPUtils.setEventDispatcher(window.MPVastLoader);
