@@ -18,9 +18,10 @@ Il progetto è stato sviluppato nel mio tempo libero, ed è gratuito e senza sco
 * [Per problemi tecnici andate qui](https://github.com/Robotex/KAADIVVVV/issues)
 
 ## Changelog
-##### 1.1.0 (June 6, 2016)
+##### 1.1.x (June 6, 2016)
 >
 * Self reminder: use version numbering correctly!
+* Fix for FADIVVVV on Firefox
 
 ##### 1.0.4 (May 25, 2016)
 >
