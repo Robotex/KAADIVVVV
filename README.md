@@ -20,7 +20,7 @@ Il progetto è stato sviluppato nel mio tempo libero, ed è gratuito e senza sco
 ## Changelog
 ##### 1.1.2 (May 11, 2017)
 >
-* [What will become of me from now on?] (https://github.com/Robotex/KAADIVVVV/issues/14)
+* [What will become of me from now on?](https://github.com/Robotex/KAADIVVVV/issues/14)
 
 ##### 1.1.1 (June 6, 2016)
 >
@@ -29,7 +29,7 @@ Il progetto è stato sviluppato nel mio tempo libero, ed è gratuito e senza sco
 
 ##### 1.0.4 (May 25, 2016)
 >
-* [Don't Drop that Tuturu] (https://github.com/Robotex/KAADIVVVV/issues/6)
+* [Don't Drop that Tuturu~](https://github.com/Robotex/KAADIVVVV/issues/6)
 
 ##### 1.0.3 (March 30, 2016)
 >
