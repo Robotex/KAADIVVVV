@@ -18,14 +18,18 @@ Il progetto è stato sviluppato nel mio tempo libero, ed è gratuito e senza sco
 * [Per problemi tecnici andate qui](https://github.com/Robotex/KAADIVVVV/issues)
 
 ## Changelog
-##### 1.1.x (June 6, 2016)
+##### 1.1.2 (May 11, 2017)
+>
+* [What will become of me from now on?](https://github.com/Robotex/KAADIVVVV/issues/14)
+
+##### 1.1.1 (June 6, 2016)
 >
 * Self reminder: use version numbering correctly!
 * Fix for FADIVVVV on Firefox
 
 ##### 1.0.4 (May 25, 2016)
 >
-* [Don't Drop that Tuturu] (https://github.com/Robotex/KAADIVVVV/issues/6)
+* [Don't Drop that Tuturu~](https://github.com/Robotex/KAADIVVVV/issues/6)
 
 ##### 1.0.3 (March 30, 2016)
 >
