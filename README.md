@@ -18,6 +18,10 @@ Il progetto è stato sviluppato nel mio tempo libero, ed è gratuito e senza sco
 * [Per problemi tecnici andate qui](https://github.com/Robotex/KAADIVVVV/issues)
 
 ## Changelog
+##### 1.2.0 (July 12, 2017)
+>
+* [I want us to understand each other](https://github.com/Robotex/KAADIVVVV/issues/16)
+
 ##### 1.1.2 (May 11, 2017)
 >
 * [What will become of me from now on?](https://github.com/Robotex/KAADIVVVV/issues/14)
