@@ -13,33 +13,20 @@
 // @grant       none
 // ==/UserScript==
 
-window.vvvvid.cab5 = function (k, n)
-{
-  var o = this;
-  o.isAdBlockActive = false;
-  if (n)
-    n(false);
-};
-
-window.vvvvid.models.PlayerObj.prototype.startAdv = function (e, b, d) {
-  var c = this;
-  if (!e) {
-    if (!_.isUndefined(c.player)) {
-      vvvvid.player.destroy();
-      delete (c.player);
-      delete (vvvvid.player);
-    }
+window.vvvvid.models.PlayerObj.prototype.startAdv = function (f, b, e) {
+  var d = this;
+  var c = d.playlistItem.toJSON();
+  if (('vod_mode' in c) && (c.vod_mode & 1) == 0 && !vvvvid.user.svodActive()) {
+    vvvvid.showGenericError('Il video selezionato è disponibile solo in modalità abbonamento.', function () {
+      vvvvid.router.mainView.resetApplication()
+    });
+    return
   }
-  var a = function(j) {
-    vvvvid.advPlayer = null;
-    $(c.playerControlsClass).removeClass('ppad');
-    d();
-  };
-  if (c.thereIsAdv) {
-    vvvvid.cab5(true, a);
-  } else {
-    d();
+  if (!f) {
+    d.destroyPlayers();
   }
+  
+  e();
 };
 
 /*
