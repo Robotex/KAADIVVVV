@@ -9,7 +9,7 @@
 // @homepage    https://github.com/Robotex/kaadivvvv/
 // @supportURL  https://github.com/Robotex/kaadivvvv/issues
 // @match       *://www.vvvvid.it/*
-// @exclude			*://www.vvvvid.it/adblock.html
+// @exclude     *://www.vvvvid.it/adblock.html
 // @grant       none
 // ==/UserScript==
 
