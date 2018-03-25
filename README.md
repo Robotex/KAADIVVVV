@@ -18,6 +18,10 @@ Il progetto è stato sviluppato nel mio tempo libero, ed è gratuito e senza sco
 * [Per problemi tecnici andate qui](https://github.com/Robotex/KAADIVVVV/issues)
 
 ## Changelog
+##### 1.3.1 (March 25, 2018)
+>
+* FEATURE: added Play/Pause spacebar shortcut in fullscreen mode
+
 ##### 1.3.0 (February 3, 2018)
 >
 * Restore support for Firefox 57/Greasemonkey 4.0 and above (Issues [#22](https://github.com/Robotex/KAADIVVVV/issues/22) [#23](https://github.com/Robotex/KAADIVVVV/issues/23) [#24](https://github.com/Robotex/KAADIVVVV/issues/24))
