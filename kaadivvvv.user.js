@@ -3,7 +3,7 @@
 // @namespace   https://github.com/Robotex/
 // @description Mantieni il tuo Ad-Blocker attivo mentre ti guardi il tuo anime preferito
 // @author      Robotex
-// @version     1.3.0
+// @version     1.3.1
 // @license     GPL version 3; http://www.gnu.org/copyleft/gpl.html
 // @copyright   2016+, Robotex (https://github.com/Robotex/)
 // @homepage    https://github.com/Robotex/kaadivvvv/
@@ -12,6 +12,11 @@
 // @exclude     *://www.vvvvid.it/adblock.html
 // @grant       none
 // ==/UserScript==
+
+function keyboardShortcuts(e) {
+  if (e.keyCode == 32 && $('#player-video-info').hasClass('inactive'))
+    window.vvvvid.player.setPlayPause();
+}
 
 function startAdv (f, b, e) {
   var d = this.wrappedJSObject;
@@ -31,9 +36,11 @@ function startAdv (f, b, e) {
 if (typeof exportFunction === "function") {
   exportFunction(startAdv, window.wrappedJSObject.vvvvid.models.PlayerObj.prototype, {defineAs: 'startAdv'});
   window.eval('window[mnsJHnyT] = window.vvvvid.models.PlayerObj.prototype.startAdv');
+  window.eval('$(document).keydown( ' + keyboardShortcuts + ' )');
 } else {
   window.vvvvid.models.PlayerObj.prototype.startAdv = startAdv;
   window[mnsJHnyT] = window.vvvvid.models.PlayerObj.prototype.startAdv;
+  $(document).keydown(keyboardShortcuts);
 }
 
 /*
