@@ -18,10 +18,10 @@ function keyboardShortcuts(e) {
     window.vvvvid.player.setPlayPause();
 }
 
-function startAdv (f, b, e) {
-  var d = this.wrappedJSObject;
-  var c = d.playlistItem.toJSON();
-  if (('vod_mode' in c) && (c.vod_mode & 1) === 0 && !vvvvid.user.svodActive()) {
+function startAdv (g, c, f) {
+  var e = this.wrappedJSObject;
+  var d = e.playlistItem.toJSON();
+  if (('vod_mode' in d) && (d.vod_mode & 1) == 0 && !vvvvid.user.svodActive()) {
     vvvvid.showGenericError('Il video selezionato è disponibile solo in modalità abbonamento.', function () {
       vvvvid.router.mainView.resetApplication();
     });
