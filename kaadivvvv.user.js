@@ -3,7 +3,7 @@
 // @namespace   https://github.com/Robotex/
 // @description Mantieni il tuo Ad-Blocker attivo mentre ti guardi il tuo anime preferito
 // @author      Robotex
-// @version     1.3.0
+// @version     1.3.1
 // @license     GPL version 3; http://www.gnu.org/copyleft/gpl.html
 // @copyright   2016+, Robotex (https://github.com/Robotex/)
 // @homepage    https://github.com/Robotex/kaadivvvv/
@@ -13,27 +13,34 @@
 // @grant       none
 // ==/UserScript==
 
-function startAdv (f, b, e) {
-  var d = this.wrappedJSObject;
-  var c = d.playlistItem.toJSON();
-  if (('vod_mode' in c) && (c.vod_mode & 1) === 0 && !vvvvid.user.svodActive()) {
+function keyboardShortcuts(e) {
+  if (e.keyCode == 32 && $('#player-video-info').hasClass('inactive'))
+    window.vvvvid.player.setPlayPause();
+}
+
+function startAdv (g, c, f) {
+  var e = (this.wrappedJSObject === undefined ? this : this.wrappedJSObject);
+  var d = e.playlistItem.toJSON();
+  if (('vod_mode' in d) && (d.vod_mode & 1) == 0 && !vvvvid.user.svodActive()) {
     vvvvid.showGenericError('Il video selezionato è disponibile solo in modalità abbonamento.', function () {
       vvvvid.router.mainView.resetApplication();
     });
     return;
   }
-  if (!f) {
-    d.destroyPlayers();
+  if (!g) {
+    e.destroyPlayers();
   }
-  e();
+  f();
 }
 
 if (typeof exportFunction === "function") {
   exportFunction(startAdv, window.wrappedJSObject.vvvvid.models.PlayerObj.prototype, {defineAs: 'startAdv'});
   window.eval('window[mnsJHnyT] = window.vvvvid.models.PlayerObj.prototype.startAdv');
+  window.eval('$(document).keydown( ' + keyboardShortcuts + ' )');
 } else {
   window.vvvvid.models.PlayerObj.prototype.startAdv = startAdv;
   window[mnsJHnyT] = window.vvvvid.models.PlayerObj.prototype.startAdv;
+  $(document).keydown(keyboardShortcuts);
 }
 
 /*
