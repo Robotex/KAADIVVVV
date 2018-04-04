@@ -24,6 +24,7 @@ Il progetto è stato sviluppato nel mio tempo libero, ed è gratuito e senza sco
 ##### 1.3.1 (March 25, 2018)
 >
 * FEATURE: added Play/Pause spacebar shortcut
+* FIX: ViolentMonkey
 
 ##### 1.3.0 (February 3, 2018)
 >
