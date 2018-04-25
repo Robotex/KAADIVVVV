@@ -16,6 +16,18 @@
 function keyboardShortcuts(e) {
   if (e.keyCode == 32 && $('#player-video-info').hasClass('inactive'))
     window.vvvvid.player.setPlayPause();
+  if (e.keyCode == 39 && $('#player-video-info').hasClass('inactive'))
+    window.vvvvid.player.setPlayhead('+5');
+  if (e.keyCode == 37 && $('#player-video-info').hasClass('inactive'))
+    window.vvvvid.player.setPlayhead('-5');
+  if (e.keyCode == 38 && $('#player-video-info').hasClass('inactive'))
+    window.vvvvid.player.setVolume('+0.05');
+  if (e.keyCode == 40 && $('#player-video-info').hasClass('inactive'))
+    window.vvvvid.player.setVolume('-0.05');
+  if (e.keyCode == 221 && $('#player-video-info').hasClass('inactive'))
+    window.vvvvid.player.setFrame('+1');
+  if (e.keyCode == 219 && $('#player-video-info').hasClass('inactive'))
+    window.vvvvid.player.setFrame('-1');
 }
 
 function startAdv (g, c, f) {
