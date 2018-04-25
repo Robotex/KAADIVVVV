@@ -24,9 +24,9 @@ function keyboardShortcuts(e) {
     window.vvvvid.player.setVolume('+0.05');
   if (e.keyCode == 40 && $('#player-video-info').hasClass('inactive'))
     window.vvvvid.player.setVolume('-0.05');
-  if (e.keyCode == 221 && $('#player-video-info').hasClass('inactive'))
+  if (e.keyCode == 160 && $('#player-video-info').hasClass('inactive'))
     window.vvvvid.player.setFrame('+1');
-  if (e.keyCode == 219 && $('#player-video-info').hasClass('inactive'))
+  if (e.keyCode == 222 && $('#player-video-info').hasClass('inactive'))
     window.vvvvid.player.setFrame('-1');
 }
 
