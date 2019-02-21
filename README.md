@@ -4,6 +4,7 @@ Questo UserScript ti permette di mantenere il tuo Ad-Blocker attivo mentre navig
 ## Funzionalità extra
 ### Scorciatoie
 * [Spazio]: metti in pausa/continua a riprodurre il video
+* [Frecce]: Volume sù/giù, fotogramma successivo/precedente
 
 ## Donazioni
 Il progetto è stato sviluppato nel mio tempo libero, ed è gratuito e senza scopo di lucro.
@@ -21,6 +22,11 @@ Il progetto è stato sviluppato nel mio tempo libero, ed è gratuito e senza sco
 * [Per problemi tecnici andate qui](https://github.com/Robotex/KAADIVVVV/issues)
 
 ### Changelog
+##### 1.3.2 (February 21, 2018)
+>
+* `window.mnsJHnyT = 'Why are you doing that?';` > Because they still keep asking me for that... sorry. (Issues [#31](https://github.com/Robotex/KAADIVVVV/issues/31) [#32](https://github.com/Robotex/KAADIVVVV/issues/32))
+* FEATURE: Add volume and precision frame forward/rewind
+
 ##### 1.3.1 (March 25, 2018)
 >
 * FEATURE: added Play/Pause spacebar shortcut
