@@ -4,6 +4,7 @@ Questo UserScript ti permette di mantenere il tuo Ad-Blocker attivo mentre navig
 ## Funzionalità extra
 ### Scorciatoie
 * [Spazio]: metti in pausa/continua a riprodurre il video
+* [Frecce]: Volume sù/giù, fotogramma successivo/precedente
 
 ## Donazioni
 Il progetto è stato sviluppato nel mio tempo libero, ed è gratuito e senza scopo di lucro.
