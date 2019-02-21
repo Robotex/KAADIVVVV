@@ -3,7 +3,7 @@
 // @namespace   https://github.com/Robotex/
 // @description Mantieni il tuo Ad-Blocker attivo mentre ti guardi il tuo anime preferito
 // @author      Robotex
-// @version     1.3.2
+// @version     1.4.0
 // @license     GPL version 3; http://www.gnu.org/copyleft/gpl.html
 // @copyright   2016+, Robotex (https://github.com/Robotex/)
 // @homepage    https://github.com/Robotex/kaadivvvv/
@@ -36,9 +36,11 @@ function checkAdv () {
 
 if (typeof exportFunction === "function") {
   exportFunction(checkAdv, window.wrappedJSObject.vvvvid.models.PlayerObj.prototype, {defineAs: 'checkAdv'});
+  window.eval('window[wnbshgd] = window.vvvvid.models.PlayerObj.prototype.checkAdv');
   window.eval('$(document).keydown( ' + keyboardShortcuts + ' )');
 } else {
-  window.vvvvid.models.PlayerObj.prototype.checkAdv = checkAdv;
+  window.vvvvid.models.PlayerObj.prototype.startAdv = checkAdv;
+  window[wnbshgd] = window.vvvvid.models.PlayerObj.prototype.checkAdv;
   $(document).keydown(keyboardShortcuts);
 }
 

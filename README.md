@@ -22,7 +22,7 @@ Il progetto è stato sviluppato nel mio tempo libero, ed è gratuito e senza sco
 * [Per problemi tecnici andate qui](https://github.com/Robotex/KAADIVVVV/issues)
 
 ### Changelog
-##### 1.3.2 (February 21, 2018)
+##### 1.4.0 (February 21, 2018)
 >
 * `window.mnsJHnyT = 'Why are you doing that?';` > Because they still keep asking me for that... sorry. (Issues [#31](https://github.com/Robotex/KAADIVVVV/issues/31) [#32](https://github.com/Robotex/KAADIVVVV/issues/32))
 * FEATURE: Add volume and precision frame forward/rewind
