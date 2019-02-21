@@ -43,5 +43,7 @@ if (typeof exportFunction === "function") {
 }
 
 /**
-* Because they still keep asking me for that... sorry.
+* A colui che sta analizzando questo script per commessa, se posso darti del tu, ti ringrazio per le sfide che avanzi.
+* Anche se la programmazione web non e il mio forte, chissa che magari un giorno ci troveremo seduti intorno ad un tavolo
+* a parlare di algoritmi e bere in compagnia :) E se sei una lei, tanto di cappello!
 */
