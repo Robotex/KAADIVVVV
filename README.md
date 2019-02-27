@@ -22,6 +22,10 @@ Il progetto è stato sviluppato nel mio tempo libero, ed è gratuito e senza sco
 * [Per problemi tecnici andate qui](https://github.com/Robotex/KAADIVVVV/issues)
 
 ### Changelog
+##### 1.4.1 (February 27, 2018)
+>
+* REQUESTED: [Jojo Stardust](https://greasyfork.org/it/forum/discussion/53105/richiesta-non-indispensabile)
+
 ##### 1.4.0 (February 21, 2018)
 >
 > `window.mnsJHnyT = 'Why are you doing that?';` 
@@ -31,7 +35,7 @@ Il progetto è stato sviluppato nel mio tempo libero, ed è gratuito e senza sco
 ##### 1.3.1 (March 25, 2018)
 >
 * FEATURE: added Play/Pause spacebar shortcut
-* FIX: ViolentMonkey
+* FIX: [ViolentMonkey](https://github.com/Robotex/KAADIVVVV/issues/27)
 
 ##### 1.3.0 (February 3, 2018)
 >
