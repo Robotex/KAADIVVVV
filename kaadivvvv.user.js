@@ -34,10 +34,17 @@ function checkAdv () {
   this.hasAdv = false;
 }
 
+if (typeof exportFunction === "function") {
+  exportFunction(checkAdv, window.wrappedJSObject.vvvvid.models.PlayerObj.prototype, {defineAs: 'checkAdv'});
+  window.eval('window.vvvvid.lastPlayedPreCommunityTime = Number.POSITIVE_INFINITY');
+  window.eval('$(document).keydown( ' + keyboardShortcuts + ' )');
+} else {
+  window.vvvvid.models.PlayerObj.prototype.checkAdv = checkAdv;
+  window.vvvvid.lastPlayedPreCommunityTime = Number.POSITIVE_INFINITY;
+  $(document).keydown(keyboardShortcuts);
+}
 Object.defineProperty(window, 'emdHkdjhj', { value: undefined, writable: false });
-window.vvvvid.models.PlayerObj.prototype.checkAdv = checkAdv;
 window.sessionStorage.logoPlayed = true;
-window.vvvvid.lastPlayedPreCommunityTime = Number.POSITIVE_INFINITY;
 
 /**
 * A colui che sta analizzando questo script per commessa, se posso darti del tu, ti ringrazio per le sfide che avanzi.
