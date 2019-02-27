@@ -36,14 +36,15 @@ function checkAdv () {
 
 if (typeof exportFunction === "function") {
   exportFunction(checkAdv, window.wrappedJSObject.vvvvid.models.PlayerObj.prototype, {defineAs: 'checkAdv'});
-  window.eval('window.vvvvid.lastPlayedPreCommunityTime = Number.POSITIVE_INFINITY');
+  window.eval('Object.defineProperty(window, \'emdHkdjhj\', { value: undefined, writable: false })');
   window.eval('$(document).keydown( ' + keyboardShortcuts + ' )');
+  window.eval('window.vvvvid.lastPlayedPreCommunityTime = Number.POSITIVE_INFINITY');
 } else {
+  Object.defineProperty(window, 'emdHkdjhj', { value: undefined, writable: false });
   window.vvvvid.models.PlayerObj.prototype.checkAdv = checkAdv;
-  window.vvvvid.lastPlayedPreCommunityTime = Number.POSITIVE_INFINITY;
   $(document).keydown(keyboardShortcuts);
+  window.vvvvid.lastPlayedPreCommunityTime = Number.POSITIVE_INFINITY;
 }
-Object.defineProperty(window, 'emdHkdjhj', { value: undefined, writable: false });
 window.sessionStorage.logoPlayed = true;
 
 /**
