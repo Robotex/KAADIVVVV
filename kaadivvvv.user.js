@@ -4,7 +4,7 @@
 // @description Mantieni il tuo Ad-Blocker attivo mentre ti guardi il tuo anime preferito
 // @author      Robotex
 // @version     1.5.0
-// @license     GPL version 3; http://www.gnu.org/copyleft/gpl.html
+// @license     GPL-3.0-or-later; http://www.gnu.org/licenses/gpl-3.0.txt
 // @copyright   2016+, Robotex (https://github.com/Robotex/)
 // @homepage    https://github.com/Robotex/kaadivvvv/
 // @supportURL  https://github.com/Robotex/kaadivvvv/issues
