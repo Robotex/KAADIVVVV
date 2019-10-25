@@ -22,6 +22,10 @@ Il progetto è stato sviluppato nel mio tempo libero, ed è gratuito e senza sco
 * [Per problemi tecnici andate qui](https://github.com/Robotex/KAADIVVVV/issues)
 
 ### Changelog
+##### 1.5.0 (October 25, 2019)
+>
+* [[...] simplicity is the secret key to the truth [...]](https://github.com/Robotex/KAADIVVVV/issues/37)
+
 ##### 1.4.1 (February 27, 2018)
 >
 * REQUESTED: [Jojo Stardust](https://greasyfork.org/it/forum/discussion/53105/richiesta-non-indispensabile)

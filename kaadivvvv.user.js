@@ -3,7 +3,7 @@
 // @namespace   https://github.com/Robotex/
 // @description Mantieni il tuo Ad-Blocker attivo mentre ti guardi il tuo anime preferito
 // @author      Robotex
-// @version     1.4.1
+// @version     1.5.0
 // @license     GPL-3.0-or-later; http://www.gnu.org/licenses/gpl-3.0.txt
 // @copyright   2016+, Robotex (https://github.com/Robotex/)
 // @homepage    https://github.com/Robotex/kaadivvvv/
@@ -12,6 +12,8 @@
 // @exclude     *://www.vvvvid.it/adblock.html
 // @grant       none
 // ==/UserScript==
+
+'use strict';
 
 function keyboardShortcuts(e) {
   if (e.keyCode == 32 && $('#player-video-info').hasClass('inactive'))
@@ -31,7 +33,7 @@ function keyboardShortcuts(e) {
 }
 
 function checkAdv () {
-  this.hasAdv = false;
+  this.playAds = false;
 }
 
 if (typeof exportFunction === "function") {
