@@ -3,7 +3,7 @@
 // @namespace   https://github.com/Robotex/
 // @description Mantieni il tuo Ad-Blocker attivo mentre ti guardi il tuo anime preferito
 // @author      Robotex
-// @version     1.5.0
+// @version     1.6.0
 // @license     GPL-3.0-or-later; http://www.gnu.org/licenses/gpl-3.0.txt
 // @copyright   2016+, Robotex (https://github.com/Robotex/)
 // @homepage    https://github.com/Robotex/kaadivvvv/
@@ -33,19 +33,21 @@ function keyboardShortcuts(e) {
 }
 
 function checkAdv () {
-  this.playAds = false;
+  this.play2Ads = false;
 }
 
 if (typeof exportFunction === "function") {
   exportFunction(checkAdv, window.wrappedJSObject.vvvvid.models.PlayerObj.prototype, {defineAs: 'checkAdv'});
   window.eval('Object.defineProperty(window, \'emdHkdjhj\', { value: undefined, writable: false })');
   window.eval('window[wnbshgd] = window.vvvvid.models.PlayerObj.prototype.checkAdv');
+  window.eval('window[jhedhgdjh] = window.vvvvid.models.PlayerObj.prototype.checkAdv');
   window.eval('$(document).keydown( ' + keyboardShortcuts + ' )');
   window.eval('window.vvvvid.lastPlayedPreCommunityTime = Number.POSITIVE_INFINITY');
 } else {
   window.vvvvid.models.PlayerObj.prototype.checkAdv = checkAdv;
   Object.defineProperty(window, 'emdHkdjhj', { value: undefined, writable: false });
   window[wnbshgd] = window.vvvvid.models.PlayerObj.prototype.checkAdv;
+  window[jhedhgdjh] = window.vvvvid.models.PlayerObj.prototype.checkAdv;
   $(document).keydown(keyboardShortcuts);
   window.vvvvid.lastPlayedPreCommunityTime = Number.POSITIVE_INFINITY;
 }
