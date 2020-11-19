@@ -22,6 +22,10 @@ Il progetto è stato sviluppato nel mio tempo libero, ed è gratuito e senza sco
 * [Per problemi tecnici andate qui](https://github.com/Robotex/KAADIVVVV/issues)
 
 ### Changelog
+##### 1.6.1 (November 19, 2020)
+>
+* Fix for AdBlock Plus
+
 ##### 1.6.0 (November 14, 2020)
 >
 * [A villain is just a victim whose story hasn't been told](https://github.com/Robotex/KAADIVVVV/issues/40)

@@ -3,7 +3,7 @@
 // @namespace   https://github.com/Robotex/
 // @description Mantieni il tuo Ad-Blocker attivo mentre ti guardi il tuo anime preferito
 // @author      Robotex
-// @version     1.6.0
+// @version     1.6.1
 // @license     GPL-3.0-or-later; http://www.gnu.org/licenses/gpl-3.0.txt
 // @copyright   2016+, Robotex (https://github.com/Robotex/)
 // @homepage    https://github.com/Robotex/kaadivvvv/
@@ -16,7 +16,7 @@
 'use strict';
 
 function keyboardShortcuts(e) {
-  if (e.keyCode == 32 && $('#player-video-info').hasClass('inactive'))
+  if ((e.keyCode == 13 || e.keyCode == 32) && $('#player-video-info').hasClass('inactive'))
     window.vvvvid.player.setPlayPause();
   if (e.keyCode == 39 && $('#player-video-info').hasClass('inactive'))
     window.vvvvid.player.setPlayhead('+5');
@@ -36,20 +36,22 @@ function checkAdv () {
   this.play2Ads = false;
 }
 
-if (typeof exportFunction === "function") {
+if (typeof exportFunction === 'function') {
   exportFunction(checkAdv, window.wrappedJSObject.vvvvid.models.PlayerObj.prototype, {defineAs: 'checkAdv'});
   window.eval('Object.defineProperty(window, \'emdHkdjhj\', { value: undefined, writable: false })');
   window.eval('window[wnbshgd] = window.vvvvid.models.PlayerObj.prototype.checkAdv');
   window.eval('window[jhedhgdjh] = window.vvvvid.models.PlayerObj.prototype.checkAdv');
-  window.eval('$(document).keydown( ' + keyboardShortcuts + ' )');
   window.eval('window.vvvvid.lastPlayedPreCommunityTime = Number.POSITIVE_INFINITY');
+  window.eval('window.nopub = true;');
+  window.eval('$(document).keydown( '+keyboardShortcuts+' )');
 } else {
   window.vvvvid.models.PlayerObj.prototype.checkAdv = checkAdv;
   Object.defineProperty(window, 'emdHkdjhj', { value: undefined, writable: false });
   window[wnbshgd] = window.vvvvid.models.PlayerObj.prototype.checkAdv;
   window[jhedhgdjh] = window.vvvvid.models.PlayerObj.prototype.checkAdv;
-  $(document).keydown(keyboardShortcuts);
   window.vvvvid.lastPlayedPreCommunityTime = Number.POSITIVE_INFINITY;
+  window.nopub = true;
+  $(document).keydown(keyboardShortcuts);
 }
 window.sessionStorage.logoPlayed = true;
 
