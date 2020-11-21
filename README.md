@@ -3,7 +3,7 @@ Questo UserScript ti permette di mantenere il tuo Ad-Blocker attivo mentre navig
 
 ## Funzionalità extra
 ### Scorciatoie
-* [Spazio]: metti in pausa/continua a riprodurre il video
+* [Spazio o Invio]: metti in pausa/continua a riprodurre il video
 * [Frecce]: Volume sù/giù, fotogramma successivo/precedente
 
 ## Donazioni
@@ -22,6 +22,11 @@ Il progetto è stato sviluppato nel mio tempo libero, ed è gratuito e senza sco
 * [Per problemi tecnici andate qui](https://github.com/Robotex/KAADIVVVV/issues)
 
 ### Changelog
+##### 1.6.1 (November 19, 2020)
+>
+* Fix for AdBlock Plus (PR [#46](https://github.com/Robotex/KAADIVVVV/pull/46))
+* Added shortcut Enter key to Play/Pause 
+
 ##### 1.6.0 (November 14, 2020)
 >
 * [A villain is just a victim whose story hasn't been told](https://github.com/Robotex/KAADIVVVV/issues/40)
@@ -82,4 +87,3 @@ Il progetto è stato sviluppato nel mio tempo libero, ed è gratuito e senza sco
 ##### 1.0.0 (February 27, 2016)
 >
 * Initial release
-
