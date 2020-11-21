@@ -25,6 +25,7 @@ Il progetto è stato sviluppato nel mio tempo libero, ed è gratuito e senza sco
 ##### 1.6.1 (November 19, 2020)
 >
 * Fix for AdBlock Plus (PR [#46](https://github.com/Robotex/KAADIVVVV/pull/46))
+* FEATURE: added Play/Pause enter shortcut
 
 ##### 1.6.0 (November 14, 2020)
 >
