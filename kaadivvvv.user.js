@@ -43,7 +43,7 @@ if (typeof exportFunction === 'function') {
   window.eval('window[jhedhgdjh] = window.vvvvid.models.PlayerObj.prototype.checkAdv');
   window.eval('window.vvvvid.lastPlayedPreCommunityTime = Number.POSITIVE_INFINITY');
   window.eval('window.nopub = true;');
-  window.eval('$(document).keydown( '+keyboardShortcuts+' )');
+  window.eval('$(document).keydown(' + keyboardShortcuts + ')');
 } else {
   window.vvvvid.models.PlayerObj.prototype.checkAdv = checkAdv;
   Object.defineProperty(window, 'emdHkdjhj', { value: undefined, writable: false });
