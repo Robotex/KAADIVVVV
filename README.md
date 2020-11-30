@@ -24,7 +24,7 @@ Il progetto è stato sviluppato nel mio tempo libero, ed è gratuito e senza sco
 ### Changelog
 ##### 1.6.2 (November 28, 2020)
 >
-* Fix for AdBlock Plus
+* Fix for AdBlock Plus (PR [#48](https://github.com/Robotex/KAADIVVVV/pull/48))
 
 ##### 1.6.1 (November 19, 2020)
 >
