@@ -22,6 +22,10 @@ Il progetto è stato sviluppato nel mio tempo libero, ed è gratuito e senza sco
 * [Per problemi tecnici andate qui](https://github.com/Robotex/KAADIVVVV/issues)
 
 ### Changelog
+##### 1.7.0 (December 2, 2020)
+>
+* [La violenza non è mai la risposta. La violenza è la domanda, e la risposta è SÌ.](https://github.com/Robotex/KAADIVVVV/issues/51) (Issues [#50](https://github.com/Robotex/KAADIVVVV/issues/50) [#51](https://github.com/Robotex/KAADIVVVV/issues/51))
+
 ##### 1.6.2 (November 28, 2020)
 >
 * Fix for AdBlock Plus (PR [#48](https://github.com/Robotex/KAADIVVVV/pull/48))
