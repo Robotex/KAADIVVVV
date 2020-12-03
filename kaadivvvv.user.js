@@ -33,7 +33,7 @@ function keyboardShortcuts(e) {
 }
 
 function checkAdv () {
-  this.play4Ads = false;
+  this.play5Ads = false;
   if (typeof exportFunction === 'function') {
     window.eval('window.vvvvid.imaPlayer.off(\'mediaError\')');
   } else {
