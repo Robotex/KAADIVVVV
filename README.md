@@ -22,13 +22,17 @@ Il progetto è stato sviluppato nel mio tempo libero, ed è gratuito e senza sco
 * [Per problemi tecnici andate qui](https://github.com/Robotex/KAADIVVVV/issues)
 
 ### Changelog
+##### 1.7.3 (December 6, 2020)
+>
+* [Il mondo ride sempre di quelle cose che, se non ridesse, sarebbe costretto ad ammirare; e biasima sempre, come la volpe, quelle che invidia](https://github.com/Robotex/KAADIVVVV/issues/57) - Giacomo Leopardi
+
 ##### 1.7.2 (December 4, 2020)
 >
 * "Mi emoziono 😳😳" - Uzume (Issues [#55](https://github.com/Robotex/KAADIVVVV/issues/55) [#56](https://github.com/Robotex/KAADIVVVV/issues/56))
 
 ##### 1.7.1 (December 3, 2020)
 >
-* [Non permettere mai a nessuno di farti smettere di brillare](https://github.com/Robotex/KAADIVVVV/issues/53)
+* [Non permettere mai a nessuno di farti smettere di brillare](https://github.com/Robotex/KAADIVVVV/issues/53) - D.d.S. Author of [Cuori Vagabondi](https://cuorivagabondi.contactin.bio/)
 
 ##### 1.7.0 (December 2, 2020)
 >
