@@ -33,7 +33,7 @@ function keyboardShortcuts(e) {
 }
 
 function checkAdv () {
-  this.play7Ads = false;
+  this.play8Ads = false;
   if (typeof exportFunction === 'function') {
     window.eval('window.vvvvid.imaPlayer.off(\'mediaError\')');
   } else {
@@ -43,13 +43,13 @@ function checkAdv () {
 
 if (typeof exportFunction === 'function') {
   exportFunction(checkAdv, window.wrappedJSObject.vvvvid.models.PlayerObj.prototype, {defineAs: 'checkAdv'});
-  window.eval('Object.defineProperty(window, \'jhefoxdjh\', { value: window.vvvvid.models.PlayerObj.prototype.checkAdv, writable: false })');
+  window.eval('Object.defineProperty(window, \'jheowldjh\', { value: window.vvvvid.models.PlayerObj.prototype.checkAdv, writable: false })');
   window.eval('window[qnejh7HJ] = window.vvvvid.models.PlayerObj.prototype.checkAdv');
   window.eval('window.vvvvid.lastPlayedPreCommunityTime = Number.POSITIVE_INFINITY');
   window.eval('$(document).keydown(' + keyboardShortcuts + ')');
 } else {
   window.vvvvid.models.PlayerObj.prototype.checkAdv = checkAdv;
-  Object.defineProperty(window, 'jhefoxdjh', { value: window.vvvvid.models.PlayerObj.prototype.checkAdv, writable: false });
+  Object.defineProperty(window, 'jheowldjh', { value: window.vvvvid.models.PlayerObj.prototype.checkAdv, writable: false });
   window[qnejh7HJ] = window.vvvvid.models.PlayerObj.prototype.checkAdv;
   window.vvvvid.lastPlayedPreCommunityTime = Number.POSITIVE_INFINITY;
   $(document).keydown(keyboardShortcuts);
