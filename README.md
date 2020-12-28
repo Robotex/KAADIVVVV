@@ -22,6 +22,10 @@ Il progetto è stato sviluppato nel mio tempo libero, ed è gratuito e senza sco
 * [Per problemi tecnici andate qui](https://github.com/Robotex/KAADIVVVV/issues)
 
 ### Changelog
+##### 1.7.5 (December 28, 2020)
+>
+* [Mirai](https://github.com/Robotex/KAADIVVVV/issues/61)
+
 ##### 1.7.4 (December 24, 2020)
 >
 * [So first let me wish you a Merry Christmas and a Happy New Year](https://github.com/Robotex/KAADIVVVV/issues/59)
