@@ -22,6 +22,10 @@ Il progetto è stato sviluppato nel mio tempo libero, ed è gratuito e senza sco
 * [Per problemi tecnici andate qui](https://github.com/Robotex/KAADIVVVV/issues)
 
 ### Changelog
+##### 1.7.6 (July 29, 2021)
+>
+* [uwuShadow](https://github.com/Robotex/KAADIVVVV/issues/63)
+* 
 ##### 1.7.5 (December 28, 2020)
 >
 * [Mirai](https://github.com/Robotex/KAADIVVVV/issues/61)
