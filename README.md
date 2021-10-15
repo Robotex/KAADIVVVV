@@ -22,6 +22,10 @@ Il progetto è stato sviluppato nel mio tempo libero, ed è gratuito e senza sco
 * [Per problemi tecnici andate qui](https://github.com/Robotex/KAADIVVVV/issues)
 
 ### Changelog
+##### 1.7.7 (October 15, 2021)
+>
+* [La notte non ha fine. Non aver paura di lottare per ciò in cui credi, anche se questo significa lottare da solo](https://github.com/Robotex/KAADIVVVV/issues/65)
+
 ##### 1.7.6 (July 29, 2021)
 >
 * [uwuShadow](https://github.com/Robotex/KAADIVVVV/issues/63)
@@ -67,11 +71,11 @@ Il progetto è stato sviluppato nel mio tempo libero, ed è gratuito e senza sco
 >
 * [[...] simplicity is the secret key to the truth [...]](https://github.com/Robotex/KAADIVVVV/issues/37)
 
-##### 1.4.1 (February 27, 2018)
+##### 1.4.1 (February 27, 2019)
 >
 * REQUESTED: [Jojo Stardust](https://greasyfork.org/it/forum/discussion/53105/richiesta-non-indispensabile)
 
-##### 1.4.0 (February 21, 2018)
+##### 1.4.0 (February 21, 2019)
 >
 > `window.mnsJHnyT = 'Why are you doing that?';` 
 * Because they still keep asking me for that... sorry. (Issues [#31](https://github.com/Robotex/KAADIVVVV/issues/31) [#32](https://github.com/Robotex/KAADIVVVV/issues/32))
