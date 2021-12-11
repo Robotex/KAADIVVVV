@@ -28,7 +28,7 @@ Il progetto è stato sviluppato nel mio tempo libero, ed è gratuito e senza sco
 
 ##### 1.7.7 (October 15, 2021)
 >
-* [](https://github.com/Robotex/KAADIVVVV/issues/65)
+* [La notte non ha fine. Non aver paura di lottare per ciò in cui credi, anche se questo significa lottare da solo](https://github.com/Robotex/KAADIVVVV/issues/65)
 
 ##### 1.7.6 (July 29, 2021)
 >
