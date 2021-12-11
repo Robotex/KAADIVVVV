@@ -22,9 +22,13 @@ Il progetto è stato sviluppato nel mio tempo libero, ed è gratuito e senza sco
 * [Per problemi tecnici andate qui](https://github.com/Robotex/KAADIVVVV/issues)
 
 ### Changelog
+##### 1.7.8 (December 11, 2021)
+>
+* [Coloro che possiedono il dono della conoscenza sono i più sciocchi](https://github.com/Robotex/KAADIVVVV/issues/67)
+
 ##### 1.7.7 (October 15, 2021)
 >
-* [La notte non ha fine. Non aver paura di lottare per ciò in cui credi, anche se questo significa lottare da solo](https://github.com/Robotex/KAADIVVVV/issues/65)
+* [](https://github.com/Robotex/KAADIVVVV/issues/65)
 
 ##### 1.7.6 (July 29, 2021)
 >
